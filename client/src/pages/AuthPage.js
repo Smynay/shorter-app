@@ -43,10 +43,10 @@ export const AuthPage = () => {
   return (
     <div className="row">
       <div className="col s6 offset-s3">
-        <h1>Сократи ссылку</h1>
-        <div className="card blue darken-1">
+        <h1 className="center">Коротилка</h1>
+        <div className="card indigo darken-2">
           <div className="card-content white-text">
-            <span className="card-title">Авторизация</span>
+            <span className="card-title center">Авторизация</span>
             <div>
               <div className="input-field">
                 <input
@@ -72,10 +72,10 @@ export const AuthPage = () => {
               </div>
             </div>
           </div>
-          <div className="card-action">
+          <div className="card-action center">
             <button
               className="btn grey lighten-1"
-              style={{ marginRight: 10 }}
+              style={{ marginRight: 80 }}
               onClick={registerHandler}
               disabled={loading}
             >

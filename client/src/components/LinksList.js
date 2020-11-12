@@ -3,7 +3,15 @@ import { Link } from 'react-router-dom';
 
 export const LinksList = ({ links }) => {
   if (!links.length) {
-    return <p className="center">Ссылок пока нет</p>;
+    return (
+      <div>
+        <h3 className="center">Ссылок пока нет</h3>
+        <br />
+        <p className="center">
+          <Link to={`/create`}>Создать новую?</Link>
+        </p>
+      </div>
+    );
   }
 
   return (

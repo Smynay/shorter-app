@@ -1,1 +1,21 @@
 @import '~materialize-css/dist/css/materialize.min.css';
+
+body {
+  background-color: #e8eaf6;
+}
+
+button {
+  width: 150px;
+}
+
+input {
+  color: white;
+}
+
+.material-icons {
+  display: inline;
+}
+
+a.pl {
+  padding-left: 10px;
+}
